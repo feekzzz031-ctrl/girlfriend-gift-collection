@@ -1,21 +1,21 @@
-# 这是什么东西？
+# Энэ юу вэ?
 
-> 源码来自 https://github.com/AJLoveChina/birthday 基本没做改动
+> Эх кодыг https://github.com/AJLoveChina/birthday төслөөс авсан бөгөөд үндсэндээ өөрчлөлт оруулаагүй.
 >
 
-一个女朋友生日的程序员解决方案，支持便捷的内容配置，急速替换为自己想要的内容，点击下方链接预览效果。
+Найз охиныхоо төрсөн өдөрт зориулсан мэндчилгээний хуудас. Агуулгыг хялбархан тохируулж, хүссэн үгээрээ сольж болно. Доорх холбоосоор урьдчилан үзнэ үү.
 
-- 国内用户访问：[https://sg.chenjianhui.site/girlfriend-gift-collection/birth-want-to-say/](https://sg.chenjianhui.site/girlfriend-gift-collection/birth-want-to-say/)
+- Хятадаас нэвтрэх: [https://sg.chenjianhui.site/girlfriend-gift-collection/birth-want-to-say/](https://sg.chenjianhui.site/girlfriend-gift-collection/birth-want-to-say/)
 - Github Pages: [https://calebman.github.io/girlfriend-gift-collection/birth-want-to-say/](https://calebman.github.io/girlfriend-gift-collection/birth-want-to-say/)
-# 如何修改为自己的内容
+# Өөрийн агуулгаар хэрхэн тохируулах вэ?
 
-一、修改配置内容
+## 1. Тохиргооны агуулгыг өөрчлөх
 
-修改 birth-want-to-say 目录下的 config.js 文件，达到预期效果
+Хүссэн үр дүнд хүрэхийн тулд `birth-want-to-say` хавтас дахь `config.js` файлыг засна.
 
-- texts: 代表播放内容
-- imgs: 与内容对应的图片，通过下标一一对应
+- `texts`: Хуудас дээр гарах мэндчилгээний текстүүд.
+- `imgs`: Текст бүртэй таарах зургууд. Текстийн мөртэй яг ижил нэрээр холбоно.
 
-二、部署静态资源
+## 2. Хуудсыг байршуулж ажиллуулах
 
-直接部署 birth-want-to-say 到静态文件服务器即可
+`birth-want-to-say` хавтсыг статик вэб серверт байршуулна.
